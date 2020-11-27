@@ -17,4 +17,8 @@ public class StartActivity extends AppCompatActivity {
     public void startGame(View view){
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
+
+    @Override
+    public void onBackPressed() {
+    }
 }
