@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="30 point"
+                android:text="@string/pink_point"
                 android:textSize="18sp"
                 android:paddingLeft="10dp"/>
         </TableRow>
@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10 point"
+                android:text="@string/orange_point"
                 android:textSize="18sp"
                 android:paddingLeft="10dp"/>
         </TableRow>
@@ -58,7 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Game Over"
+                android:text="@string/black"
                 android:textSize="18sp"
                 android:paddingLeft="10dp"/>
         </TableRow>
@@ -67,7 +67,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="START"
+        android:text="@string/btn_start"
         android:layout_marginTop="60dp"
         android:onClick="startGame"/>
 
