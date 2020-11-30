@@ -71,4 +71,11 @@
         android:layout_marginTop="60dp"
         android:onClick="startGame"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hard_start"
+        android:layout_marginTop="60dp"
+        android:onClick="startHard"/>
+
 </LinearLayout>

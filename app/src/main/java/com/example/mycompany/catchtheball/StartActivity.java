@@ -18,6 +18,10 @@ public class StartActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 
+    public void startHard(View view){
+        startActivity(new Intent(getApplicationContext(), HardMainActivity.class));
+    }
+
     @Override
     public void onBackPressed() {
     }
