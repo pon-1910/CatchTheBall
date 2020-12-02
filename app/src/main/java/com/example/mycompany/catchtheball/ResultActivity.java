@@ -22,7 +22,7 @@ public class ResultActivity extends AppCompatActivity {
         int score = getIntent().getIntExtra("SCORE", 0);
         scoreLabel.setText(score + "");
 
-        SharedPreferences sharedPreferences = getSharedPreferences("GAME_OVER",
+        SharedPreferences sharedPreferences = getSharedPreferences("GAME_DATA",
                 Context.MODE_PRIVATE);
         int highScore = sharedPreferences.getInt("HIGH_SCORE", 0);
 
@@ -42,7 +42,7 @@ public class ResultActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 
-    @Override
-    public void onBackPressed() {
+    public void Hard(View view){
+        startActivity(new Intent(getApplicationContext(), HardMainActivity.class));
     }
 }

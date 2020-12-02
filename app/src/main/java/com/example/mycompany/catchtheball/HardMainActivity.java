@@ -193,7 +193,7 @@ public class HardMainActivity extends AppCompatActivity {
             }
 
             // 結果画面へ
-            Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+            Intent intent = new Intent(getApplicationContext(), HardResultActivity.class);
             intent.putExtra("SCORE", score);
             startActivity(intent);
         }
@@ -214,7 +214,7 @@ public class HardMainActivity extends AppCompatActivity {
             }
 
             // 結果画面へ
-            Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+            Intent intent = new Intent(getApplicationContext(), HardResultActivity.class);
             intent.putExtra("SCORE", score);
             startActivity(intent);
         }

@@ -9,6 +9,6 @@
     <string name="pink_point">30 point</string>
     <string name="orange_point">10 point</string>
     <string name="black">Game Over</string>
-    <string name="btn_start">START</string>
+    <string name="btn_start">NORMAL MODE START</string>
     <string name="btn_hard_start">HARD MODE START</string>
 </resources>
